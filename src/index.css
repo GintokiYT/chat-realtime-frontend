@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scrollbar-width: thin; /* Ancho de la barra de desplazamiento */
+  scrollbar-color: transparent transparent; /* Color del pulgar y del fondo de la barra de desplazamiento */
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 0.5em; /* Ancho de la barra de desplazamiento */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent; /* Color de fondo de la barra de desplazamiento */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: transparent; /* Color del pulgar de la barra de desplazamiento */
+}
